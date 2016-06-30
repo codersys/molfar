@@ -1,4 +1,4 @@
-package molfar;
+package net.molfar.feature;
 
 import java.awt.image.BufferedImage;
 
