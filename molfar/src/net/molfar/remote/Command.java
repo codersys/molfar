@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package net.molfare.optimization;
+package net.molfar.remote;
 
 /**
  *
  * @author Vycheslav
  */
-public class Swarm {
+public class Command {
     
 }
