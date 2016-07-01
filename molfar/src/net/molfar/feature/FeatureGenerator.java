@@ -10,7 +10,7 @@ public class FeatureGenerator {
     private int features_num_actual = 0;
     
     /*
-     * Перед добавлением, екстракторы могут быть сконфигурированы, настроенны
+     * 
      */
     public void addExtractor(IExtractor extractor){
         extractorList.add( extractor );
@@ -18,7 +18,7 @@ public class FeatureGenerator {
     }
     
     /*
-     * Удаление екстрактора по его имени
+     * 
      */
     public void delExtractor(String name){
         for(IExtractor e : extractorList){
@@ -32,7 +32,7 @@ public class FeatureGenerator {
     }
     
     /*
-     * Возвращает екстрактор по номеру порядка его добавления
+     * 
      */
     public IExtractor getExtractor(int id){
         return extractorList.get( id );
@@ -69,8 +69,7 @@ public class FeatureGenerator {
     }
     
     /*
-     * Задает маску для полного вектора признаков, режется на кусочки 
-     * что бы применить к каждому конкретному екстрактору
+     * 
      */
     public void adjustment( byte[] mask ){
         int count = 0;
@@ -82,14 +81,14 @@ public class FeatureGenerator {
     }
     
     /*
-     * Возвращает максимальную длинну дескриптора
+     * 
      */
     int getMaxLength(){
         return features_num;
     }
     
     /*
-     * Возвращает текущую длинну дескриптора
+     * 
      */
     int getCurrLength(){
         features_num_actual = 0;
